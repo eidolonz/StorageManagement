@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
                 alertDialog.setTitle("Title");
                 alertDialog.setMessage("Message");
 
-                alertDialog.setButton(1,"Continue..", new DialogInterface.OnClickListener(){
+                alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL,"Continue..", new DialogInterface.OnClickListener(){
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         alertDialog.cancel();
